@@ -1,0 +1,59 @@
+*{margin:0; padding: 0;}
+.main{
+    height: 100%;
+}
+.book{display: flex;}
+.bookimg{
+    border: brown solid 2px;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+.aboutbook{
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.aboutbook p{
+    padding-top: 1%;
+}
+a{
+    color: green;
+}
+.me{
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 2%;
+}
+.about{
+    margin-top: 5%;
+    border-top: #d37fcc solid 3px;
+    border-bottom: #d37fcc solid 3px;
+}
+.opis{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+.duma{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8%;
+}
+.author img{
+    margin-top: 1%;
+    border: brown solid 2px;
+    width: 300px;
+    height: 400px;
+}
+.infoauthor{
+    margin: 5%;
+}
+.author{
+    display: flex;
+    border-bottom: #d37fcc solid 2px;
+}
+.zmist p{
+color: blue;
+padding-left: 3%;
+}
